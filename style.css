@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background: linear-gradient(pink,lightpink,hotpink);
+    height: 100vh;
+    width: 100%;
+}
+
+/* ======main-section */
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ======Title */
+h1{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5rem;
+    margin-left: 9.5rem;
+    color: rgb(44, 39, 39);
+    font-size:2rem ;
+}   
+.form{
+    position: relative;
+    width: 80%;
+    height: 5%;
+    font-size: 2rem;
+}
+/* form-input */
+.form input{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(255, 0, 111);
+    height: 40px;
+    width: 324px;
+}
+/* form-button */
+.form button{
+    font-weight: bolder;
+    color: #fff;
+    background-color:rgb(255, 0, 111) ;
+    border:3px solid #fff;
+    height: 40px;
+    width: 100px;
+}
+/* todo-container */
+.todo-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* =======todo-con======= */
+.todo-con{
+    overflow-y: scroll;
+
+    margin: 2rem 2rem 2rem 10rem;
+    width:22rem;
+    border-radius: .5rem;
+    height: 27rem;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 32px -19px #ff0068;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+
+}
+
+
+.comtodoItems{
+    padding: 1rem;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 39, 39);
+    list-style: none;
+    width: 18rem;
+    height: 3rem;
+    box-shadow: 3px 3px 32px -19px #ff0068;
+    background: inherit;
+    backdrop-filter: blur(10px);
+}
+
+.trash-todo{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 39, 39);
+    list-style: none;
+    width: 18rem;
+    height: 3rem;
+    box-shadow: 3px 3px 32px -19px #ff0068;
+    background: inherit;
+    backdrop-filter: blur(10px);
+}
+.todoItems{
+    padding: 1rem;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 39, 39);
+    list-style: none;
+    width: 18rem;
+    height: 3rem;
+    box-shadow: 3px 3px 32px -19px #ff0068;
+    background: inherit;
+    backdrop-filter: blur(10px);
+}
+/* todo-list */
+/* ul {
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 39, 39);
+    list-style: none;
+    width: 18rem;
+    height: 3rem;
+    box-shadow: 3px 3px 32px -19px #ff0068;
+    background: inherit;
+    backdrop-filter: blur(10px);
+
+
+} */
+
+/* li{
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 39, 39);
+    padding: 1rem;
+    list-style: none;
+ } */
+
+ul div button{
+    box-shadow: 2px 2px 3px -1px #ff004e;
+    background: inherit;
+    border: none;
+    align-content: normal;
+    backdrop-filter: blur(36px);
+    background-color: #ffffff82;
+    margin-top: rem;
+    float: right;
+    width: 2rem;
+    border-radius: 0.19999rem;
+    font-weight: bolder;
+   
+    height: 1.5rem;
+} 
+.todo{
+
+    margin-bottom: 2rem;
+
+}
+.trash{
+    margin-left: .5rem;
+}
+
+
+.com-todo{
+    margin-bottom: 1rem;
+}
